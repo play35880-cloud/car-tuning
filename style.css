@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    background: radial-gradient(
+        circle at 15% 10%,
+       #7dd3fc,
+       #bae6fd,
+       #e0f5ff,
+       #f5fcff,
+        #ffffff 75%
+    );
+}
+
+header {
+    width: 90%;
+    margin: 20px auto;
+    background: rgba(red, green, blue, alpha);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1597d4;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #176b8f;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f5fcff;
+    transform: translateY(-4px);
+}
+
+.cart {
+    width: 45px;
+    height: 45px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(21, 151, 212, 0.25);
+    border-radius: 14px;
+}
+.cart {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart {
+    transition: 0.3s;
+}
+
+.cart:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(21, 151, 212, 0.2)
+}
+
+.hero {
+    width: 90%;
+    margin: 80px auto 0;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    color: #125b7a;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #47788d;
+    margin: 0 0 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: rgba(21, 151, 212, 0.75);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(21, 151, 212, 0.25);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.8);
+    color: #ffffff;
+    border: 1px solid rgba(21, 151, 212, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.btn-primary:hover {
+    background: rgba(21, 151, 212, 0.95);
+    box-shadow: 0 10px 35px rgba(21, 151, 212, 0.4);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at 80% 45%,rgba(21, 151, 212, 0.18), transparent 35% liner-gradient(135deg, #06131F, #081C2B 50%, #02070C));
+}
+
+body {
+    background:
+        radial-gradient(
+            circle at 75% 45%,
+            rgba(21, 151, 212, 0.22),
+            transparent 38%
+        ),
+        linear-gradient(
+            135deg,
+            #06131f,
+            #081c2b 55%,
+            #02070c
+        ) !important;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    color: #7dd3fc;
+    text-shadow: 0 0 18px rgba(21, 151, 212, 0.35);
+}
+
+nav a:hover {
+    color: #777dd3fc;
+}
+
+.hero-content {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 25px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 600px;
+    padding: 80px 8%;
+    min-height: 600px;
+    position: relative;
+    
+}
+
+
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #ffffff;
+    max-width: 550px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: rgba(0, 140, 255, 0.8);
+    color: #fff;
+    box-shadow: 0 px 25px;
+    box-shadow: 0 8px 25px rgba(0, 140, 255, 0.25);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.07);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    transform: translateY(-3px);
+}
+
+.hero-car {
+    flex: 0.8;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    width: 100%;
+    max-width: 550px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.hero-car {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 25px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-car img {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-car::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 140, 255, 0.18);
+    filter: blur(80px);
+    border-radius: 50px;
+    z-index: 0;
+}
+
+.hero-content a {
+    margin-top: 5px;
+    margin-right: 8px;
+}

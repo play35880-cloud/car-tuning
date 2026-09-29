@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تیونینگ خودرو | Car Tuning</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Three.js -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+            }
+        }
+    </script>
+
+<style>
+    #car-viewer {
+        width: 100%;
+        height: 600px;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <section class="tuning-page">
+
+        <div class="tuning-header">
+            <h1>خودروت رو انتخاب کن</h1>
+
+            <p>
+                ماشین رو با موس بچرخون و از تمام زوایا ببین
+            </p>
+        </div>
+
+        <div id="car-viewer"></div>
+
+    </section>
+
+    <script type="module" src="tuning.js"></script>
+
+</body>
+
+</html>
